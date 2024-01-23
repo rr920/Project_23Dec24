@@ -7,5 +7,10 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/rr920/Project_23Dec24.git'
             }
         }
+        stage('Unit Testing'){
+            steps{
+                sh 'mvn test'
+            }
+        }
     }
 }
