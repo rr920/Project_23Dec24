@@ -4,7 +4,7 @@ pipeline {
 
         stage('Git Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/rr920/demo-counter-app.git'
+                git branch: 'main', url: 'https://github.com/rr920/Project_23Dec24.git'
             }
         }
     }
